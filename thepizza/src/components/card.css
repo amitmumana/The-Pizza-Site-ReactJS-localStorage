@@ -1,0 +1,18 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700;800&family=Open+Sans:wght@600&display=swap');
+
+.img_div{
+   overflow: hidden;
+}
+
+.img_div img {
+    transition: all 1.0s ease;
+}
+
+ .img_div:hover img {
+    transform: scale(1.1);
+ }
+ 
+ .title_text{
+   font-family: 'Open Sans', sans-serif;
+}

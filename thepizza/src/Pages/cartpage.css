@@ -1,0 +1,21 @@
+
+.cart_container{
+    margin-top: 150px;
+    overflow: hidden;
+ }
+ 
+ .gif{
+    height: 200px;
+    position: relative;
+    bottom: 20px;
+    animation: gif 20s linear infinite;
+ }
+ 
+ @keyframes gif {
+    0%{
+       transform: translateX(0px);
+    }
+    90%,100% {
+        transform: translateX(calc(70vw + 200px));
+    }
+ }

@@ -1,0 +1,51 @@
+
+#showcase{
+    background-image: url("../assets/img/thumb.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0 20px;
+}
+
+#showcase h1 {
+    font-size: 50px;
+    line-height: 1.5;
+    z-index: 100;
+}
+
+#showcase p {
+    font-size: 20px;
+
+}
+
+#overlay {
+    background: black;
+    opacity: 0.5;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+
+.text_container{
+    z-index: 100;
+    padding-inline: 50px;
+}
+
+.text_container h1 {
+    color:#fff;
+    font-family: 'Open Sans', sans-serif;
+    
+}
+
+
+.text_container p {
+    color:white;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
